@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script src="https://cdn.tailwindcss.com"></script>
+      <title>Baap ka Bank</title>
+   </head>
+   <body class="my-20">
+      <header>
+         <h1 class="text-5xl font-bold mx-80 text-center my-16">les't go my <span class="text-emerald-600"> moooooooony</span></h1>
+      </header>
+      <section class="px-80">
+         <div class="grid grid-cols-3 gap-8">
+            <div class="bg-amber-600 py-10 px-6 rounded-lg">
+               <h2 class="text-3xl font-semibold text-white my-2">Deposit</h2>
+               <h2 class="text-3xl font-semibold text-white">$<span id="deposit">00</span></h2>
+            </div>
+            <div class="bg-teal-600 py-10 px-6 rounded-lg">
+               <h2 class="text-3xl font-semibold text-white my-2">Withdraw</h2>
+               <h2 class="text-3xl font-semibold text-white">$<span id="Withdraw-text">00</span></h2>
+            </div>
+            <div class="bg-indigo-600 py-10 px-6 rounded-lg">
+               <h2 class="text-3xl font-semibold text-white my-2">Balance</h2>
+               <h2 class="text-3xl font-semibold text-white">$<span id="Balance">1240</span></h2>
+            </div>
+         </div>
+         <div class="grid grid-cols-2 gap-16 my-16">
+            <div class="bg-cyan-600 py-6 px-6 rounded-lg">
+               <h2 class="text-3xl font-semibold text-white my-2">PLEASE DEPOSIT</h2>
+               <input class="w-96 my-2 py-2 px-2 rounded" type="text" name="" id="deposit-input-field" placeholder="Inter Your Amount" required /> <br />
+
+               <button id="deposit-btn" class="py-2 px-4 bg-orange-600 rounded my-4 text-white text-xl font-semibold">DEPOSIT</button>
+            </div>
+            <div class="bg-emerald-600 py-6 px-6 rounded-lg">
+               <h2 class="text-3xl font-semibold text-white my-2">PLEASE WITHDRAW</h2>
+               <input class="w-96 my-2 py-2 px-2 rounded" type="text" name="" id="Withdraw-input" placeholder="Inter Your Amount" required /> <br />
+               <button id="Withdraw-btn" class="py-2 px-4 bg-orange-600 rounded my-4 text-white text-xl font-semibold">WITHDRAW</button>
+            </div>
+         </div>
+      </section>
+      <script src="bank.js"></script>
+      <script src="withdraw2.js"></script>
+   </body>
+</html>
