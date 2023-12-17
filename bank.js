@@ -20,6 +20,6 @@ document.getElementById("deposit-btn").addEventListener("click", function () {
    const currentDeposit = newDepositField + newDepositText;
    depositText.innerText = currentDeposit;
 
-   const currentBalance = currentDeposit + newBalance;
+   const currentBalance = newDepositField + newBalance;
    balance.innerText = currentBalance;
 });
